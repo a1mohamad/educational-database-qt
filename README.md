@@ -33,15 +33,11 @@ To run the application:
 
 ## Application Preview
 
-![Educational Database Main Window](assets/screenshots/x.png)
+![Educational Database Main Window](assets/screenshots/persons.png)
 
 ---
 
 ## Screenshots
-
-### Person Management
-
-![Person Management](assets/screenshots/persons.png)
 
 ### Student Management
 
