@@ -1,0 +1,38 @@
+# Build folders
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and deployment files
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# Qt generated / local files
+moc_*
+ui_*
+qrc_*
+*.autosave
+*.user
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private runtime/auth data
+users.dat
+system_files/users.dat
+
+# Local archives
+*.zip
