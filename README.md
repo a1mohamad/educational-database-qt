@@ -1,4 +1,5 @@
 <div align="center">
+
 # Educational Database
 
 [![Qt](https://img.shields.io/badge/Qt-6.5%2B-41CD52?logo=qt\&logoColor=white)](https://www.qt.io/download-dev)
@@ -21,8 +22,6 @@
 
 </div>
 
-**Educational Database** is a Qt Widgets desktop application for managing core educational records in a clean Windows-style interface. The application supports student, teacher, course, term, term-course, grade, report, and user-management workflows through a sidebar-based graphical interface.
-=======
 **Educational Database** is a Qt/C++ desktop application for managing educational records through a clean Windows-style graphical interface. It supports person, student, teacher, course, term, term-course, grade, report, authentication, and user-management workflows.
 
 The application is built with **C++**, **Qt 6 Widgets**, and **CMake**. It uses a lightweight local file-based persistence layer, so it can run without installing a separate database server.
