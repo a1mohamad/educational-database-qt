@@ -8,7 +8,6 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Desktop-lightgrey)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/github/license/a1mohamad/educational-database-qt)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/a1mohamad/educational-database-qt)](https://github.com/a1mohamad/educational-database-qt/releases/latest)
-[![Portfolio](https://img.shields.io/badge/Portfolio-a1mohamad.github.io-0A66C2?logo=githubpages\&logoColor=white)](https://a1mohamad.github.io)
 
 **Contact and Profiles**
 
