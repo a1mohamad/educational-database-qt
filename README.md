@@ -9,7 +9,6 @@
 [![Release](https://img.shields.io/github/v/release/a1mohamad/educational-database-qt)](https://github.com/a1mohamad/educational-database-qt/releases/latest)
 [![Portfolio](https://img.shields.io/badge/Portfolio-a1mohamad.github.io-0A66C2?logo=githubpages\&logoColor=white)](https://a1mohamad.github.io)
 
-<<<<<<< HEAD
 **Contact and Profiles**
 
 [![Gmail](https://img.shields.io/badge/Gmail-a1mohamad.askari%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:a1mohamad.askari@gmail.com)
@@ -25,7 +24,6 @@
 **Educational Database** is a Qt Widgets desktop application for managing core educational records in a clean Windows-style interface. The application supports student, teacher, course, term, term-course, grade, report, and user-management workflows through a sidebar-based graphical interface.
 =======
 **Educational Database** is a Qt/C++ desktop application for managing educational records through a clean Windows-style graphical interface. It supports person, student, teacher, course, term, term-course, grade, report, authentication, and user-management workflows.
->>>>>>> 0ebda622f0018639b238e4b36dcd845f30b2d429
 
 The application is built with **C++**, **Qt 6 Widgets**, and **CMake**. It uses a lightweight local file-based persistence layer, so it can run without installing a separate database server.
 
