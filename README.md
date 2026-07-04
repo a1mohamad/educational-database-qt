@@ -29,18 +29,25 @@ The application is built with **C++**, **Qt 6 Widgets**, and **CMake**. It uses 
 
 ## Download
 
-The latest portable Windows release is available from the GitHub Releases page:
+The latest Windows release is available from the GitHub Releases page:
 
-[Download Educational Database for Windows x64](https://github.com/a1mohamad/educational-database-qt/releases/latest)
+[Download Educational Database for Windows](https://github.com/a1mohamad/educational-database-qt/releases/latest)
 
-To run the application:
+### Recommended: Windows Installer
+
+1. Download `EducationalDatabase-Setup-v1.0.0.exe`.
+2. Run the installer.
+3. Follow the setup steps.
+4. Launch **Educational Database** from the Start Menu or the optional desktop shortcut.
+
+### Portable Version
 
 1. Download `EducationalDatabase-v1.0.0-Windows-x64.zip`.
 2. Extract the ZIP file.
 3. Open the extracted folder.
 4. Double-click `educational-database.exe`.
 
-> Do not move the `.exe` file outside the extracted folder. The Qt runtime files, plugin folders, and local data files must stay beside the executable.
+> The installer version is recommended for most users. The portable version must stay inside its extracted folder, and the `.exe` file should not be moved outside that folder. The Qt runtime files, plugin folders, and local data files must stay beside the executable in the portable package.
 
 ---
 
@@ -370,7 +377,12 @@ After that, create the first real admin account and continue using the applicati
 
 For a public GitHub release, build the project in Release mode and package the final executable together with the required Qt runtime files and runtime data folders.
 
-A recommended release layout is:
+This project can be distributed in two Windows-friendly formats:
+
+* `EducationalDatabase-Setup-v1.0.0.exe` for normal installation
+* `EducationalDatabase-v1.0.0-Windows-x64.zip` for portable usage
+
+A recommended portable release layout is:
 
 ```text
 EducationalDatabase-v1.0.0-Windows-x64/
@@ -398,6 +410,10 @@ On Windows, Qt applications normally require Qt DLLs and plugin folders beside t
 ```bash
 windeployqt path/to/educational-database.exe
 ```
+
+The deployed folder can be zipped directly as the portable package, or used as the input folder for an installer.
+
+For the installer package, the current release uses an Inno Setup script that installs the deployed application files into a per-user local application directory. This keeps the local `database/` and `system_files/` data writable while still giving users a normal setup experience with Start Menu and optional desktop shortcuts.
 
 The project also contains CMake deployment support through `qt_generate_deploy_app_script`. After building, installation/deployment can be attempted with:
 
